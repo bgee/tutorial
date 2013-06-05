@@ -2,7 +2,8 @@ This is the learningGit branch.
 
 Check the log of this branch. Compare it with the log in the master branch and observe that the 
 commits in the learningGit is not seen in the log of the master and vice versa. Creating a branch 
-essentially separates different aspects of a project that is hosted in one git repository.
+essentially separates different aspects of a project that is hosted in one git repository. You
+can see all the branches by the command "git branch -a".
 
 Now, create a file in this branch with the name "file_<your name>". For instance, mine would be
 "file_can". Write some text into it. Use the "git status" command to see which files are changed
