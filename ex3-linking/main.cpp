@@ -1,5 +1,5 @@
 /**
- * @file ex2-includes.cpp
+ * @file ex3-linking.cpp
  * @author Can Erdogan
  * @date June 05, 2013
  * @brief This executable is a part of the tutorial for new students and it should be compiled with
@@ -18,8 +18,11 @@
 using namespace std;
 using namespace fcl;
 
-/// The declaration of the local library's function
+/// The declaration of the local library's function that returns pi
 double localLibFunc();
+
+/// The declaration of the local library's function that returns euler's number
+double localLibFunc2();
 
 /// The main thread
 int main () {
@@ -28,7 +31,8 @@ int main () {
 	Sphere s1 (10.0);
 	cout << "Created a sphere with fcl library" << endl;
 	
-	// Make a call from the local library
+	// Make calls from the local library
 	double value = localLibFunc();
-	cout << "Local lib function returns: " << value << endl;	
+	double value2 = localLibFunc2();
+	cout << "Local lib functions return: " << value << " and " << value2 << endl;	
 }
