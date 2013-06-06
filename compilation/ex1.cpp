@@ -4,6 +4,8 @@
  * @date June 06, 2013
  * @brief This file is the first example of compilation errors and focuses more on syntactical 
  * problems.
+ * The problems in this example are related to: constants, misspellings, syntax errors, 
+ * return values.
  */
 
 #include <iostream>
