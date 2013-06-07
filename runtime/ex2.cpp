@@ -77,7 +77,7 @@ int main () {
 
 	// Initialize the goal location
 	xGoal = VectorXd (2);
-	xGoal << -2.0, 1.0;
+	xGoal << -0.5, 2.0;
 
 	// Initialize the initial joint value
 	VectorXd q0 (2);
