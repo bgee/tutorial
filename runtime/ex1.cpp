@@ -24,7 +24,7 @@ using namespace std;
 void readDictionary (char*** dictionary) {
 
 	// Open the file
-	ifstream file ("data.txt", ifstream::in);
+	ifstream file ("words.txt", ifstream::in);
 	assert(file.is_open() && "Could not open the file!");
 
 	// Read the lines one by one - assume each word is on a line
