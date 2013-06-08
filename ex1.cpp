@@ -2,28 +2,20 @@
  * @file ex1.cpp
  * @author Can Erdogan
  * @date June 08, 2013
- * @brief This file is a part of the tutorial for new students and is aimed to demonstrate the 
+ * @brief This file is a part of the tutorial for new students and is written to demonstrate the 
  * importance of commenting. To do so, it carries out an algorithm, hopefully familiar to the
- * reader, in a very convoluted and uncommented way, and it still lacks a few lines to reach
- * completion. 
+ * reader, in a very convoluted and uncommented way, and there is a slight problem with it
  * NOTE If you see a Nan or Inf in the results, re-run the program - just bad random values.
  */
 
 #include <stdio.h>
 #include <iostream>
-#include <Eigen/Dense>
 #include <assert.h>
+#include <stdlib.h>
+#include <math.h>
+#include <string.h>
 
-using namespace Eigen;
 using namespace std;
-
-#define pmr(a) std::cout << #a << ":\n " << (a) << "\n" << std::endl
-
-Matrix3d eig (double* x) {
-	Matrix3d m;
-	m << x[0], x[1], x[2], x[3], x[4], x[5], x[6], x[7], x[8];
-	return m;
-}
 
 int main () {
 
