@@ -15,7 +15,6 @@ Then commit your change. Basically, you should issue four commands:
   - git status | Note that once you added the file the status has changed. If you setup colors 
     (you should), it would change green from red.
   - git commit -m <message>
-  - git push origin learningGit
 
-Lastly, make a change to this file and commit/push it as well. After doing that use the gitk
+Lastly, make a change to this file and commit as well. After doing that use the gitk
 command (if it does not exist, install it) to see the history of this file. 
