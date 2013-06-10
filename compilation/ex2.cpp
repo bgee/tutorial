@@ -23,8 +23,8 @@ int main () {
 
 	// Increment the value of B with A's values.
 	a.incrementBsValue();
-	b->val += a.val2 + a.val3;
+	double sum = b->val + a.val2 + a.val3;
 
 	// After adding up all the values, the end value of B should be 6
-	assert((b->val == 6) && "Something went wrong!");
+	assert((sum == 6) && "Something went wrong!");
 }

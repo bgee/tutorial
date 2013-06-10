@@ -4,7 +4,6 @@
  * @date June 06, 2013
  * @brief Contains the class definition of A for examples 2.
  * What is the difference between a static and normal field member? Google!
- * How do you declare a static variable in a class?
  * NOTE: Do not change the public/private definitions of members. That is usually a simple
  * solution/hack but would defeat the purpose of the exercise.
  */
@@ -18,8 +17,11 @@ class B;
 class A {
 
 	B* b;																	///< The B instance
-	static int val1 = 1;									///< The fixed value 
 	int val2;															///< The input value
+
+  // How can we declare a static variable in a class? Do not make this variable a const for the
+	// purpose of for this exercise.
+	static int val1 = 1;									///< The fixed value 
 
 public:
 
@@ -31,7 +33,8 @@ public:
 	void incrementBsValue (); 						///< Increment Bs value
 
 	// The getter function that returns private variables
-	int getVal1 const ();												///< Returns val2
+	int getVal1 () const;									///< Returns val2 - the const at the end means that this file does 
+																				///  not change the variables of this class
 	int getVal2 ();												///< Returns val2
 	B* getB () { return b; }							///< Returns the local instance of B
 };
