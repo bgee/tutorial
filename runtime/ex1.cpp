@@ -101,7 +101,7 @@ int main () {
 
 		// Search for the word
 		size_t* index = NULL;
-		bool result = findWord(dictionary, word, 0, NUM_WORDS-1, &index);
+		bool result = findWord(dictionary, word, 0, NUM_WORDS-1, index);
 		printf("result: %d, index: %lu\n", result, index + 1);
   }
 }
