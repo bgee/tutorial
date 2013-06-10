@@ -11,7 +11,7 @@
 // #include "helper2.h"
 
 /// Forward declare class B
-class B;
+struct B;
 
 /// The definition of class A
 class A {
