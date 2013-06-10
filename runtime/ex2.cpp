@@ -52,7 +52,7 @@ void moveTowardsGoal (VectorXd q) {
        ( l1*cos(q(0)) + l2*cos(q(0)+q(1))), ( l2*cos(q(0)+q(1))), 0.0, 0.0;
 
 	// Compute the direction in the joint space and compute the small motion on it
-	VectorXd dir = J.inverse() * dx;
+	VectorXd dir = (J.inverse() * dx).normalized();
 	dir *= smallLength;
 	
 	// Carry out the motion and attempt to make a new small move
