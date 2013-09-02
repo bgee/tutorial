@@ -1,0 +1,2 @@
+/usr/bin/ar cr "lib*.a.a"  "CMakeFiles/*.a.dir/main.cpp.o"
+/usr/bin/ranlib "lib*.a.a"

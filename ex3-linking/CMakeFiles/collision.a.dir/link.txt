@@ -1,0 +1,2 @@
+/usr/bin/ar cr libcollision.a.a  CMakeFiles/collision.a.dir/main.cpp.o
+/usr/bin/ranlib libcollision.a.a

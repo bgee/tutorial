@@ -1,0 +1,2 @@
+/home/bi/tutorial/ex3-linking/CMakeFiles/ex3.dir
+/home/bi/tutorial/ex3-linking/CMakeFiles/libLocal.a.dir

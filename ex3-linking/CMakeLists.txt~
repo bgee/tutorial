@@ -1,0 +1,8 @@
+cmake_minimum_required (VERSION 2.6)
+project (ex3)
+
+
+
+include_directories(/usr/inclde/fcl)
+
+add_executable(ex3 main.cpp)

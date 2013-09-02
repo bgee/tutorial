@@ -1,0 +1,2 @@
+/usr/bin/ar cr libnarrowphase.a.a  CMakeFiles/narrowphase.a.dir/main.cpp.o
+/usr/bin/ranlib libnarrowphase.a.a
