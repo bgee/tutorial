@@ -14,6 +14,10 @@ helper2.h
 assert.h
 /home/bi/tutorial/compilation/assert.h
 
+/home/bi/tutorial/compilation/helper1.cpp
+helper1.h
+/home/bi/tutorial/compilation/helper1.h
+
 /home/bi/tutorial/compilation/helper1.h
 helper2.h
 /home/bi/tutorial/compilation/helper2.h

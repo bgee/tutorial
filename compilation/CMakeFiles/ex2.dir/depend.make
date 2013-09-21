@@ -7,4 +7,5 @@ CMakeFiles/ex2.dir/ex2.cpp.o: helper2.h
 
 CMakeFiles/ex2.dir/helper1.cpp.o: helper1.cpp
 CMakeFiles/ex2.dir/helper1.cpp.o: helper1.h
+CMakeFiles/ex2.dir/helper1.cpp.o: helper2.h
 

@@ -7,6 +7,8 @@
 
 #include "helper1.h"
 
+//A::A() : val1(1){}
+int A::val1 = 1;
 void A::incrementBsValue() {
   b->val += val1;
 }

@@ -9,7 +9,7 @@
  */
 #ifndef _h1_included_
 #define _h1_included_
- #include "helper2.h"
+#include "helper2.h"
 
 /// Forward declare class B
 //struct B;
@@ -22,13 +22,12 @@ class A {
 
   // How can we declare a static variable in a class? Do not make this variable a const for the
 	// purpose of for this exercise.
-	const static int val1 = 1;									///< The fixed value 
+	static int val1;									///< The fixed value 
 
 public:
-
+	
 	/// The constructor with a parameter
-	A (int input=1) {
-	  val2 = (input);
+	A (int input=1) : val2(input){
 	}
 
 	// Add a const here
