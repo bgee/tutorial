@@ -7,11 +7,12 @@
  * NOTE: Do not change the public/private definitions of members. That is usually a simple
  * solution/hack but would defeat the purpose of the exercise.
  */
-
-// #include "helper2.h"
+#ifndef _h1_included_
+#define _h1_included_
+ #include "helper2.h"
 
 /// Forward declare class B
-struct B;
+//struct B;
 
 /// The definition of class A
 class A {
@@ -21,12 +22,13 @@ class A {
 
   // How can we declare a static variable in a class? Do not make this variable a const for the
 	// purpose of for this exercise.
-	static int val1 = 1;									///< The fixed value 
+	const static int val1 = 1;									///< The fixed value 
 
 public:
 
 	/// The constructor with a parameter
-	A (int input) : val2(input) {
+	A (int input=1) {
+	  val2 = (input);
 	}
 
 	// Add a const here
@@ -36,5 +38,6 @@ public:
 	int getVal1 () const;									///< Returns val2 - the const at the end means that this file does 
 																				///  not change the variables of this class
 	int getVal2 ();												///< Returns val2
-	B* getB () { return b; }							///< Returns the local instance of B
+	B* getB (); //{ return b; }							///< Returns the local instance of B
 };
+#endif
