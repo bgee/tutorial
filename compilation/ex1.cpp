@@ -9,27 +9,29 @@
  */
 
 #include <iostream>
-
+#include <vector>
+#include <stdio.h>
+using std::vector;
 /// Computes the sum of a given vector of values where we assume the numbers start from 0 and increase
 /// consecutively.
-int sum (const vector<>& values) {
+int sum (vector <int>& values) {
 
 	// Get the last value - the end of the list
-	int& end = values.back();
+        int& end = values.back();
 
 	// Compute the sum by iterating over the values until the last one
 	int total = 0;
-	for(int i = 0; i < end; i++)
+	for(int& i = values.front(); i <= end; i++)
 		total += i;
 
 	// Return the value
-	return;
+	return total;
 }
 
 /// Multiplies a number by two
 void multiplyTwoNumbers (int* num, int num2) {
-  *num *= num2;
-	return num;
+        *num *= num2;
+	//return num;
 }
 
 /// The main thread
@@ -41,14 +43,15 @@ int main () {
 	int total = sum(values);
 	
 	// If the sum of the values is less than 10, divide by two; otherwise, multiply by two with a function call
-	if(total < 10) 
-		newTotal = total / 2;
-		printf("newTotal: %d\z", newTotal);
+	if(total < 10){ 
+		int newTotal = total / 2;
+		printf("newTotal: %d\n", newTotal);
+	}
 	else {
-		multiplyTwoNumber(total);	
-		printf("newTotal: %d\n, total)
+	  multiplyTwoNumbers(&total, 2);	
+	  printf("newTotal: %d\n", total);
 	}
 
 	// Print an exit statement
-	std::cout << The computation is completed << std::endl;
+	std::cout << "The computation is completed" << std::endl;
 }

@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/bi/tutorial/compilation/ex2.cpp
+helper1.h
+/home/bi/tutorial/compilation/helper1.h
+helper2.h
+/home/bi/tutorial/compilation/helper2.h
+
+/home/bi/tutorial/compilation/helper1.cpp
+helper1.h
+/home/bi/tutorial/compilation/helper1.h
+
+/home/bi/tutorial/compilation/helper1.h
+
+/home/bi/tutorial/compilation/helper2.h
+helper1.h
+/home/bi/tutorial/compilation/helper1.h
+
