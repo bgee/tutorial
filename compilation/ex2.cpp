@@ -12,19 +12,19 @@
 
 #include "helper1.h"
 #include "helper2.h"
-
+#include "assert.h"
 
 /// The main thread
 int main () {
 
 	// Create an instance of class A and get its B value
-	A a;
-	A* b = a.getB();
-
+        A a(1); //can also be done with adding another constructor
+        A* b = (A *)a.getB();
+        
 	// Increment the value of B with A's values.
 	a.incrementBsValue();
-	double sum = b->val + a.val2 + a.val3;
-
+	double sum = ((B *)b)->val + a.getVal2() + a.getVal2();
+        
 	// After adding up all the values, the end value of B should be 6
 	assert((sum == 6) && "Something went wrong!");
 }

@@ -47,10 +47,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bi/tutorial/compilation
+CMAKE_SOURCE_DIR = /home/bi/project/tutorial/compilation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bi/tutorial/compilation
+CMAKE_BINARY_DIR = /home/bi/project/tutorial/compilation
 
 #=============================================================================
 # Target rules for target CMakeFiles/ex1.dir
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/bi/tutorial/compilation
 CMakeFiles/ex1.dir/all:
 	$(MAKE) -f CMakeFiles/ex1.dir/build.make CMakeFiles/ex1.dir/depend
 	$(MAKE) -f CMakeFiles/ex1.dir/build.make CMakeFiles/ex1.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/bi/tutorial/compilation/CMakeFiles  1
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/bi/project/tutorial/compilation/CMakeFiles  1
 	@echo "Built target ex1"
 .PHONY : CMakeFiles/ex1.dir/all
 
@@ -69,9 +69,9 @@ all: CMakeFiles/ex1.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ex1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bi/tutorial/compilation/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bi/project/tutorial/compilation/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ex1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bi/tutorial/compilation/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bi/project/tutorial/compilation/CMakeFiles 0
 .PHONY : CMakeFiles/ex1.dir/rule
 
 # Convenience name for target.
@@ -94,7 +94,7 @@ clean: CMakeFiles/ex1.dir/clean
 CMakeFiles/ex2.dir/all:
 	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/depend
 	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/bi/tutorial/compilation/CMakeFiles  2 3
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/bi/project/tutorial/compilation/CMakeFiles  2 3 4
 	@echo "Built target ex2"
 .PHONY : CMakeFiles/ex2.dir/all
 
@@ -104,9 +104,9 @@ all: CMakeFiles/ex2.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ex2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bi/tutorial/compilation/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bi/project/tutorial/compilation/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ex2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bi/tutorial/compilation/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bi/project/tutorial/compilation/CMakeFiles 0
 .PHONY : CMakeFiles/ex2.dir/rule
 
 # Convenience name for target.
@@ -129,7 +129,7 @@ clean: CMakeFiles/ex2.dir/clean
 CMakeFiles/ex3.dir/all:
 	$(MAKE) -f CMakeFiles/ex3.dir/build.make CMakeFiles/ex3.dir/depend
 	$(MAKE) -f CMakeFiles/ex3.dir/build.make CMakeFiles/ex3.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/bi/tutorial/compilation/CMakeFiles  4
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/bi/project/tutorial/compilation/CMakeFiles  5
 	@echo "Built target ex3"
 .PHONY : CMakeFiles/ex3.dir/all
 
@@ -139,9 +139,9 @@ all: CMakeFiles/ex3.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ex3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bi/tutorial/compilation/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bi/project/tutorial/compilation/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ex3.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bi/tutorial/compilation/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bi/project/tutorial/compilation/CMakeFiles 0
 .PHONY : CMakeFiles/ex3.dir/rule
 
 # Convenience name for target.

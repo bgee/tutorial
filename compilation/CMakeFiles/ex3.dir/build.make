@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bi/tutorial/compilation
+CMAKE_SOURCE_DIR = /home/bi/project/tutorial/compilation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bi/tutorial/compilation
+CMAKE_BINARY_DIR = /home/bi/project/tutorial/compilation
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ex3.dir/depend.make
@@ -51,17 +51,17 @@ include CMakeFiles/ex3.dir/flags.make
 
 CMakeFiles/ex3.dir/ex3.cpp.o: CMakeFiles/ex3.dir/flags.make
 CMakeFiles/ex3.dir/ex3.cpp.o: ex3.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/bi/tutorial/compilation/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/bi/project/tutorial/compilation/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/ex3.dir/ex3.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ex3.dir/ex3.cpp.o -c /home/bi/tutorial/compilation/ex3.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ex3.dir/ex3.cpp.o -c /home/bi/project/tutorial/compilation/ex3.cpp
 
 CMakeFiles/ex3.dir/ex3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex3.dir/ex3.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/bi/tutorial/compilation/ex3.cpp > CMakeFiles/ex3.dir/ex3.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/bi/project/tutorial/compilation/ex3.cpp > CMakeFiles/ex3.dir/ex3.cpp.i
 
 CMakeFiles/ex3.dir/ex3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex3.dir/ex3.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/bi/tutorial/compilation/ex3.cpp -o CMakeFiles/ex3.dir/ex3.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/bi/project/tutorial/compilation/ex3.cpp -o CMakeFiles/ex3.dir/ex3.cpp.s
 
 CMakeFiles/ex3.dir/ex3.cpp.o.requires:
 .PHONY : CMakeFiles/ex3.dir/ex3.cpp.o.requires
@@ -97,6 +97,6 @@ CMakeFiles/ex3.dir/clean:
 .PHONY : CMakeFiles/ex3.dir/clean
 
 CMakeFiles/ex3.dir/depend:
-	cd /home/bi/tutorial/compilation && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bi/tutorial/compilation /home/bi/tutorial/compilation /home/bi/tutorial/compilation /home/bi/tutorial/compilation /home/bi/tutorial/compilation/CMakeFiles/ex3.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bi/project/tutorial/compilation && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bi/project/tutorial/compilation /home/bi/project/tutorial/compilation /home/bi/project/tutorial/compilation /home/bi/project/tutorial/compilation /home/bi/project/tutorial/compilation/CMakeFiles/ex3.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ex3.dir/depend
 

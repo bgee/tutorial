@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bi/tutorial/compilation
+CMAKE_SOURCE_DIR = /home/bi/project/tutorial/compilation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bi/tutorial/compilation
+CMAKE_BINARY_DIR = /home/bi/project/tutorial/compilation
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ex2.dir/depend.make
@@ -51,17 +51,17 @@ include CMakeFiles/ex2.dir/flags.make
 
 CMakeFiles/ex2.dir/ex2.cpp.o: CMakeFiles/ex2.dir/flags.make
 CMakeFiles/ex2.dir/ex2.cpp.o: ex2.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/bi/tutorial/compilation/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/bi/project/tutorial/compilation/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/ex2.dir/ex2.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ex2.dir/ex2.cpp.o -c /home/bi/tutorial/compilation/ex2.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ex2.dir/ex2.cpp.o -c /home/bi/project/tutorial/compilation/ex2.cpp
 
 CMakeFiles/ex2.dir/ex2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex2.dir/ex2.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/bi/tutorial/compilation/ex2.cpp > CMakeFiles/ex2.dir/ex2.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/bi/project/tutorial/compilation/ex2.cpp > CMakeFiles/ex2.dir/ex2.cpp.i
 
 CMakeFiles/ex2.dir/ex2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex2.dir/ex2.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/bi/tutorial/compilation/ex2.cpp -o CMakeFiles/ex2.dir/ex2.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/bi/project/tutorial/compilation/ex2.cpp -o CMakeFiles/ex2.dir/ex2.cpp.s
 
 CMakeFiles/ex2.dir/ex2.cpp.o.requires:
 .PHONY : CMakeFiles/ex2.dir/ex2.cpp.o.requires
@@ -74,17 +74,17 @@ CMakeFiles/ex2.dir/ex2.cpp.o.provides.build: CMakeFiles/ex2.dir/ex2.cpp.o
 
 CMakeFiles/ex2.dir/helper1.cpp.o: CMakeFiles/ex2.dir/flags.make
 CMakeFiles/ex2.dir/helper1.cpp.o: helper1.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/bi/tutorial/compilation/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/bi/project/tutorial/compilation/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/ex2.dir/helper1.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ex2.dir/helper1.cpp.o -c /home/bi/tutorial/compilation/helper1.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ex2.dir/helper1.cpp.o -c /home/bi/project/tutorial/compilation/helper1.cpp
 
 CMakeFiles/ex2.dir/helper1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex2.dir/helper1.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/bi/tutorial/compilation/helper1.cpp > CMakeFiles/ex2.dir/helper1.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/bi/project/tutorial/compilation/helper1.cpp > CMakeFiles/ex2.dir/helper1.cpp.i
 
 CMakeFiles/ex2.dir/helper1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex2.dir/helper1.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/bi/tutorial/compilation/helper1.cpp -o CMakeFiles/ex2.dir/helper1.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/bi/project/tutorial/compilation/helper1.cpp -o CMakeFiles/ex2.dir/helper1.cpp.s
 
 CMakeFiles/ex2.dir/helper1.cpp.o.requires:
 .PHONY : CMakeFiles/ex2.dir/helper1.cpp.o.requires
@@ -95,16 +95,41 @@ CMakeFiles/ex2.dir/helper1.cpp.o.provides: CMakeFiles/ex2.dir/helper1.cpp.o.requ
 
 CMakeFiles/ex2.dir/helper1.cpp.o.provides.build: CMakeFiles/ex2.dir/helper1.cpp.o
 
+CMakeFiles/ex2.dir/helper2.cpp.o: CMakeFiles/ex2.dir/flags.make
+CMakeFiles/ex2.dir/helper2.cpp.o: helper2.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/bi/project/tutorial/compilation/CMakeFiles $(CMAKE_PROGRESS_3)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/ex2.dir/helper2.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ex2.dir/helper2.cpp.o -c /home/bi/project/tutorial/compilation/helper2.cpp
+
+CMakeFiles/ex2.dir/helper2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex2.dir/helper2.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/bi/project/tutorial/compilation/helper2.cpp > CMakeFiles/ex2.dir/helper2.cpp.i
+
+CMakeFiles/ex2.dir/helper2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex2.dir/helper2.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/bi/project/tutorial/compilation/helper2.cpp -o CMakeFiles/ex2.dir/helper2.cpp.s
+
+CMakeFiles/ex2.dir/helper2.cpp.o.requires:
+.PHONY : CMakeFiles/ex2.dir/helper2.cpp.o.requires
+
+CMakeFiles/ex2.dir/helper2.cpp.o.provides: CMakeFiles/ex2.dir/helper2.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/helper2.cpp.o.provides.build
+.PHONY : CMakeFiles/ex2.dir/helper2.cpp.o.provides
+
+CMakeFiles/ex2.dir/helper2.cpp.o.provides.build: CMakeFiles/ex2.dir/helper2.cpp.o
+
 # Object files for target ex2
 ex2_OBJECTS = \
 "CMakeFiles/ex2.dir/ex2.cpp.o" \
-"CMakeFiles/ex2.dir/helper1.cpp.o"
+"CMakeFiles/ex2.dir/helper1.cpp.o" \
+"CMakeFiles/ex2.dir/helper2.cpp.o"
 
 # External object files for target ex2
 ex2_EXTERNAL_OBJECTS =
 
 ex2: CMakeFiles/ex2.dir/ex2.cpp.o
 ex2: CMakeFiles/ex2.dir/helper1.cpp.o
+ex2: CMakeFiles/ex2.dir/helper2.cpp.o
 ex2: CMakeFiles/ex2.dir/build.make
 ex2: CMakeFiles/ex2.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable ex2"
@@ -116,6 +141,7 @@ CMakeFiles/ex2.dir/build: ex2
 
 CMakeFiles/ex2.dir/requires: CMakeFiles/ex2.dir/ex2.cpp.o.requires
 CMakeFiles/ex2.dir/requires: CMakeFiles/ex2.dir/helper1.cpp.o.requires
+CMakeFiles/ex2.dir/requires: CMakeFiles/ex2.dir/helper2.cpp.o.requires
 .PHONY : CMakeFiles/ex2.dir/requires
 
 CMakeFiles/ex2.dir/clean:
@@ -123,6 +149,6 @@ CMakeFiles/ex2.dir/clean:
 .PHONY : CMakeFiles/ex2.dir/clean
 
 CMakeFiles/ex2.dir/depend:
-	cd /home/bi/tutorial/compilation && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bi/tutorial/compilation /home/bi/tutorial/compilation /home/bi/tutorial/compilation /home/bi/tutorial/compilation /home/bi/tutorial/compilation/CMakeFiles/ex2.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bi/project/tutorial/compilation && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bi/project/tutorial/compilation /home/bi/project/tutorial/compilation /home/bi/project/tutorial/compilation /home/bi/project/tutorial/compilation /home/bi/project/tutorial/compilation/CMakeFiles/ex2.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ex2.dir/depend
 

@@ -7,8 +7,9 @@
  * NOTE: Do not change the public/private definitions of members. That is usually a simple
  * solution/hack but would defeat the purpose of the exercise.
  */
-
-// #include "helper2.h"
+#ifndef _helper1
+#define _helper1
+#include "helper2.h"
 
 /// Forward declare class B
 struct B;
@@ -21,14 +22,15 @@ class A {
 
   // How can we declare a static variable in a class? Do not make this variable a const for the
 	// purpose of for this exercise.
-	static int val1 = 1;									///< The fixed value 
+	//static int val1 = 1;									///< The fixed value 
 
 public:
 
 	/// The constructor with a parameter
 	A (int input) : val2(input) {
 	}
-
+        A (void) : val2(1) {
+        }
 	// Add a const here
 	void incrementBsValue (); 						///< Increment Bs value
 
@@ -38,3 +40,4 @@ public:
 	int getVal2 ();												///< Returns val2
 	B* getB () { return b; }							///< Returns the local instance of B
 };
+#endif

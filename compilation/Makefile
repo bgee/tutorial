@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bi/tutorial/compilation
+CMAKE_SOURCE_DIR = /home/bi/project/tutorial/compilation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bi/tutorial/compilation
+CMAKE_BINARY_DIR = /home/bi/project/tutorial/compilation
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -69,9 +69,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bi/tutorial/compilation/CMakeFiles /home/bi/tutorial/compilation/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bi/project/tutorial/compilation/CMakeFiles /home/bi/project/tutorial/compilation/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bi/tutorial/compilation/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bi/project/tutorial/compilation/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -233,6 +233,30 @@ helper1.cpp.s:
 	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/helper1.cpp.s
 .PHONY : helper1.cpp.s
 
+helper2.o: helper2.cpp.o
+.PHONY : helper2.o
+
+# target to build an object file
+helper2.cpp.o:
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/helper2.cpp.o
+.PHONY : helper2.cpp.o
+
+helper2.i: helper2.cpp.i
+.PHONY : helper2.i
+
+# target to preprocess a source file
+helper2.cpp.i:
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/helper2.cpp.i
+.PHONY : helper2.cpp.i
+
+helper2.s: helper2.cpp.s
+.PHONY : helper2.s
+
+# target to generate assembly for a file
+helper2.cpp.s:
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/helper2.cpp.s
+.PHONY : helper2.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -256,6 +280,9 @@ help:
 	@echo "... helper1.o"
 	@echo "... helper1.i"
 	@echo "... helper1.s"
+	@echo "... helper2.o"
+	@echo "... helper2.i"
+	@echo "... helper2.s"
 .PHONY : help
 
 

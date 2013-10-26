@@ -4,8 +4,9 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/bi/tutorial/compilation/ex2.cpp" "/home/bi/tutorial/compilation/CMakeFiles/ex2.dir/ex2.cpp.o"
-  "/home/bi/tutorial/compilation/helper1.cpp" "/home/bi/tutorial/compilation/CMakeFiles/ex2.dir/helper1.cpp.o"
+  "/home/bi/project/tutorial/compilation/ex2.cpp" "/home/bi/project/tutorial/compilation/CMakeFiles/ex2.dir/ex2.cpp.o"
+  "/home/bi/project/tutorial/compilation/helper1.cpp" "/home/bi/project/tutorial/compilation/CMakeFiles/ex2.dir/helper1.cpp.o"
+  "/home/bi/project/tutorial/compilation/helper2.cpp" "/home/bi/project/tutorial/compilation/CMakeFiles/ex2.dir/helper2.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

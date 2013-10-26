@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/bi/tutorial/compilation/ex3.cpp" "/home/bi/tutorial/compilation/CMakeFiles/ex3.dir/ex3.cpp.o"
+  "/home/bi/project/tutorial/compilation/ex3.cpp" "/home/bi/project/tutorial/compilation/CMakeFiles/ex3.dir/ex3.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

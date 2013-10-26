@@ -7,18 +7,25 @@
 
 #include "helper1.h"
 
+// @edit
+static int val1 = 1;
+
+
 void A::incrementBsValue() {
-	B->val += val1;
+	b->val += val1;
 }
 
 int getVal1 () { 
 	return val1; 
 }
 	
-int B::getVal2 () { 
+int A::getVal2 () { 
 	return val2; 
 }	
-
+// @edit
+// remove the conflicting function
+/*
 B* getB () { 
 	return b; 
 }
+*/

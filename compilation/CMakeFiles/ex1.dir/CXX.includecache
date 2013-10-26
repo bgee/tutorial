@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/bi/tutorial/compilation/ex1.cpp
+/home/bi/project/tutorial/compilation/ex1.cpp
 iostream
+-
+vector
+-
+stdio.h
 -
 
