@@ -18,6 +18,7 @@
 int main () {
 
 	// Create an instance of class A and get its B value
+<<<<<<< HEAD
         A a(1); //can also be done with adding another constructor
         A* b = (A *)a.getB();
         
@@ -25,6 +26,15 @@ int main () {
 	a.incrementBsValue();
 	double sum = ((B *)b)->val + a.getVal2() + a.getVal2();
         
+=======
+        A a;
+	B* b = a.getB();
+
+	// Increment the value of B with A's values.
+	a.incrementBsValue();
+	double sum = b->val + a.getVal1() + a.getVal2();
+
+>>>>>>> 5f045fa728975e71c524f70eabacd332abe664a0
 	// After adding up all the values, the end value of B should be 6
 	assert((sum == 6) && "Something went wrong!");
 }
