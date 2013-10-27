@@ -7,38 +7,25 @@
 
 #include "helper1.h"
 
-<<<<<<< HEAD
 // @edit
 static int val1 = 1;
 
 
 void A::incrementBsValue() {
 	b->val += val1;
-=======
-//A::A() : val1(1){}
-int A::val1 = 1;
-void A::incrementBsValue() {
-  b->val += val1;
->>>>>>> 5f045fa728975e71c524f70eabacd332abe664a0
 }
 
-int A::getVal1 () const{ 
-	return this->val1; 
+int getVal1 () { 
+	return val1; 
 }
 	
 int A::getVal2 () { 
 	return val2; 
 }	
-<<<<<<< HEAD
 // @edit
 // remove the conflicting function
 /*
 B* getB () { 
 	return b; 
-=======
-
-B* A::getB () { 
-	return this->b; 
->>>>>>> 5f045fa728975e71c524f70eabacd332abe664a0
 }
 */

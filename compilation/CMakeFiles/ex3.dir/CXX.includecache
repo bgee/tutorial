@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/bi/project/tutorial/compilation/ex3.cpp
+stdio.h
+-
+stdlib.h
+-
+time.h
+-
+helper3.h
+/home/bi/project/tutorial/compilation/helper3.h
+Eigen/Dense
+-
+iostream
+-
+
+/home/bi/project/tutorial/compilation/helper3.h
+
